@@ -29,7 +29,7 @@ jobs:
     - name: Check out code
       uses: actions/checkout@master
     - name: Deploy to Firebase
-      uses: serkan-korkac/deploy-firebase-functions@1.0.0
+      uses: serkan-korkac/deploy-firebase-functions@latest
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         TARGET: default
