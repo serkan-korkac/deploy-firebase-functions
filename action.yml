@@ -1,4 +1,4 @@
-name: 'Deploy to Firebase Functions'
+name: 'Deploy to Firebase Functions serkan-korkac'
 author: 'Serkan Korkac <korkacserkan@gmail.com>, Serkan Korkac'
 description: 'A GitHub Action to deploy to Firebase Functions modified to allow production or development deployment'
 runs:
