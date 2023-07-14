@@ -23,4 +23,4 @@ fi
 
 firebase use ${TARGET}
 
-firebase deploy --token ${FIREBASE_TOKEN} --only ${DEPLOY_ONLY}
+firebase deploy --project ${TARGET} --token ${FIREBASE_TOKEN} --only ${DEPLOY_ONLY}
