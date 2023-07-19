@@ -21,6 +21,5 @@ if [ -z "${DEPLOY_ONLY}" ]; then
     DEPLOY_ONLY = "functions"
 fi
 
-firebase use ${TARGET}
 
-firebase deploy --token ${FIREBASE_TOKEN} --only ${DEPLOY_ONLY}
+firebase deploy --token ${FIREBASE_TOKEN} --project ${TARGET} --only ${DEPLOY_ONLY}
