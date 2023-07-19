@@ -22,4 +22,4 @@ if [ -z "${DEPLOY_ONLY}" ]; then
 fi
 
 
-firebase deploy --project ${TARGET} --token ${FIREBASE_TOKEN} --only ${DEPLOY_ONLY}
+firebase deploy --token ${FIREBASE_TOKEN} --only ${DEPLOY_ONLY}
